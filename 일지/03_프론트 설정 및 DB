@@ -22,7 +22,16 @@
 
 # H2 데이터베이스
 간단한 데이터베이스.
+프로젝트 디렉토리안에 H2만들고, 설정파일은 C:\Users\[계정이름]\하위에 .h2.server.properties, jpashop.mv.db 만듦.
+
+@Transactional 어노테이션이 테스트에 있으면, 테스트 후 다 Rollback함.
+
+# gradle build
+자바 1.8을 깔았는데, build.gradle에 11로 세팅해놔서 gradlew clean build 할 때 에러남.
+guild.gradle 에서 sourceCompatibility = '1.8' 로 변경
+개짱나게도 vscode에선 자바 1.8을 못쓰나보다 다시 11까는중
+자바버전만 몇시간째 맞추고있다 개짱난다ㅡㅡ
 
 
-
+# query 날릴 때 파라미터가 ?로만 나오는데 이걸 파라미터도 찍히게 하기위해 로깅에 org.hibernate.type : trace
 
