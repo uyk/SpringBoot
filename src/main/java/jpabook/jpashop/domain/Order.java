@@ -1,4 +1,4 @@
-package jpabook.domain;
+package jpabook.jpashop.domain;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
